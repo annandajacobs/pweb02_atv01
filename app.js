@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 app.get('/sobre', (req, res) => {
     contador++;
-  res.render('index', { title: 'Sobre nós', contador});
+  res.render('sobre', { title: 'Sobre nós', contador});
 });
 
 app.listen(port, () => {
